@@ -1,0 +1,39 @@
+{
+  "agents": [
+    {
+      "id": "community/claude-code",
+      "display_name": "Claude Code",
+      "description": "Anthropic Claude Code CLI — premium coding agent with tool use and dangerously-skip-permissions mode",
+      "version": "1.0.0",
+      "command": "claude"
+    },
+    {
+      "id": "community/aider",
+      "display_name": "Aider",
+      "description": "AI pair programming in your terminal — supports GPT-4, Claude, Gemini, and local models",
+      "version": "1.0.0",
+      "command": "aider"
+    },
+    {
+      "id": "community/copilot-cli",
+      "display_name": "GitHub Copilot CLI",
+      "description": "GitHub Copilot in the command line for shell commands, git, and gh explanations",
+      "version": "1.0.0",
+      "command": "gh"
+    },
+    {
+      "id": "community/cline",
+      "display_name": "Cline",
+      "description": "Autonomous coding agent for VS Code with CLI mode support",
+      "version": "1.0.0",
+      "command": "cline"
+    },
+    {
+      "id": "community/goose",
+      "display_name": "Goose",
+      "description": "Block open-source AI developer agent by Block (Square) with MCP support",
+      "version": "1.0.0",
+      "command": "goose"
+    }
+  ]
+}

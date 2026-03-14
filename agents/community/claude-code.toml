@@ -1,0 +1,20 @@
+[agent]
+id = "claude-code"
+display_name = "Claude Code"
+command = "claude"
+prompt_mode = "flag"
+prompt_flag = "-p"
+fixed_args = ["--dangerously-skip-permissions"]
+model_flag = "--model"
+streaming = false
+output_format = "text"
+
+[agent.capabilities]
+research = 7
+simple_edit = 9
+complex_impl = 10
+frontend = 8
+debugging = 9
+testing = 8
+refactoring = 9
+documentation = 7

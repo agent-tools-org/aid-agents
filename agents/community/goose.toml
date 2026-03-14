@@ -1,0 +1,19 @@
+[agent]
+id = "goose"
+display_name = "Goose"
+command = "goose"
+prompt_mode = "flag"
+prompt_flag = "run"
+fixed_args = ["--non-interactive"]
+streaming = false
+output_format = "text"
+
+[agent.capabilities]
+research = 5
+simple_edit = 6
+complex_impl = 7
+frontend = 5
+debugging = 6
+testing = 5
+refactoring = 6
+documentation = 5

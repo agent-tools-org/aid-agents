@@ -1,0 +1,20 @@
+[agent]
+id = "aider"
+display_name = "Aider"
+command = "aider"
+prompt_mode = "flag"
+prompt_flag = "--message"
+fixed_args = ["--yes-always", "--no-git"]
+model_flag = "--model"
+streaming = false
+output_format = "text"
+
+[agent.capabilities]
+research = 3
+simple_edit = 7
+complex_impl = 8
+frontend = 5
+debugging = 6
+testing = 6
+refactoring = 8
+documentation = 4
