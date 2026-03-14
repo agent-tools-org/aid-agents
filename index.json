@@ -34,6 +34,14 @@
       "description": "Block open-source AI developer agent by Block (Square) with MCP support",
       "version": "1.0.0",
       "command": "goose"
+    },
+    {
+      "id": "community/nanobanana",
+      "display_name": "Nano Banana",
+      "description": "Image generation via Gemini nanobanana MCP server — logos, icons, patterns, pixel art",
+      "version": "1.0.0",
+      "command": "bash",
+      "scripts": ["nanobanana-gen.sh"]
     }
   ]
 }

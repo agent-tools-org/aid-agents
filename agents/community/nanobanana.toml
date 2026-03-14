@@ -1,0 +1,25 @@
+[agent]
+id = "nanobanana"
+display_name = "Nano Banana"
+command = "bash"
+prompt_mode = "arg"
+fixed_args = ["-c", "exec \"$HOME/.aid/scripts/nanobanana-gen.sh\" \"$0\""]
+streaming = false
+output_format = "text"
+
+# Prerequisites:
+# 1. gemini extensions install https://github.com/gemini-cli-extensions/nanobanana
+#    OR manual install: clone + build MCP server to ~/.gemini/extensions/nanobanana/
+# 2. export NANOBANANA_API_KEY="your-gemini-api-key"
+# 3. Script auto-installed by `aid store install` to ~/.aid/scripts/nanobanana-gen.sh
+
+[agent.capabilities]
+design = 10
+frontend = 3
+research = 0
+simple_edit = 0
+complex_impl = 0
+debugging = 0
+testing = 0
+refactoring = 0
+documentation = 0
