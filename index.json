@@ -1,13 +1,6 @@
 {
   "agents": [
     {
-      "id": "community/claude-code",
-      "display_name": "Claude Code",
-      "description": "Anthropic Claude Code CLI — premium coding agent with tool use and dangerously-skip-permissions mode",
-      "version": "1.0.0",
-      "command": "claude"
-    },
-    {
       "id": "community/aider",
       "display_name": "Aider",
       "description": "AI pair programming in your terminal — supports GPT-4, Claude, Gemini, and local models",
